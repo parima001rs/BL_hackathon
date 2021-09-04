@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Here</title>
+    <link rel="stylesheet" href="landingPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logologo.png" width = "125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="GetStarted.html">Get Started</a></li>
+                    <li><a href="loginPage.html">Account <i class="fas fa-user"></i></a></li>
+                </ul>
+            </nav>
+            <li style="list-style: none;" class="menu-icon" onclick="menutoggle()"><i class="fas fa-bars"></i></li>
+        </div>
+    </div>
+</div>
+
+<!-- ----------- ACCOUNT PAGE ----------- -->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="login.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="current-password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot password</a>
+                    </form>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="current-password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+   <!-------- FOOTER --------->
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur.</p>
+                   <div class="app-logo">
+                    <img src="App1.png">
+                    <img src="App2.png">
+                </div>
+               </div>
+               <div class="footer-col-2">
+                <img src="logologo.png" width="170px">
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+             <div class="footer-col-3">
+                <div class="txt">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                </div>
+                <div class="txt">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                 </div>
+            </div>
+       </div>
+       <hr>
+       <p class="copyright">Copyright &#169 2021 - PK</p>
+   </div>
+
+
+<script src="landingPage.js"></script>
+</body>
+</html>
